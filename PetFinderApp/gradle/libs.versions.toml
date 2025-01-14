@@ -1,0 +1,57 @@
+[versions]
+accompanistPager = "<latest_version>"
+agp = "8.7.2"
+coilCompose = "2.4.0"
+firebaseBom = "33.7.0"
+foundation = "1.4.0"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.04.01"
+lifecycleRuntimeKtxVersion = "2.5.1"
+navigationCompose = "2.8.5"
+appcompat = "1.7.0"
+foundationDesktop = "1.7.0"
+ui = "1.4.0"
+litertMetadata = "1.0.1"
+litert = "1.0.1"
+
+[libraries]
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPager" }
+androidx-activity = { module = "androidx.activity:activity", version.ref = "activityCompose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx-v251 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database = { module = "com.google.firebase:firebase-database" }
+firebase-storage = { module = "com.google.firebase:firebase-storage" }
+foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "foundation" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-foundation-desktop = { group = "androidx.compose.foundation", name = "foundation-desktop", version.ref = "foundationDesktop" }
+ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "ui" }
+litert-metadata = { group = "com.google.ai.edge.litert", name = "litert-metadata", version.ref = "litertMetadata" }
+litert = { group = "com.google.ai.edge.litert", name = "litert", version.ref = "litert" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
